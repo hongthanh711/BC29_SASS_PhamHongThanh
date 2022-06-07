@@ -249,34 +249,49 @@ header .navbar .nav-item:not(:last-child) .nav-link::after {
   background-repeat: no-repeat;
 }
 
-.team .col-3 {
+.team .card-container {
   padding: 20px;
 }
 
-.team .col-3 .card {
+.team .card-container .card {
   border-radius: 20px;
   border: none;
   overflow: hidden;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
-.team .col-3 .card .card-info {
+.team .card-container .card:hover {
+  -webkit-box-shadow: 3px 13px 20px 0px #00000047;
+          box-shadow: 3px 13px 20px 0px #00000047;
+}
+
+.team .card-container .card .card-info {
   color: #b61984;
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
 }
 
-.team .col-3 .card .card-title {
+.team .card-container .card .card-title {
   color: black;
   font-size: 22px;
   font-weight: 700;
 }
 
-.team .col-3 .card .card-img-top {
+.team .card-container .card .card-img-top {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  overflow: hidden;
   width: 100%;
 }
 
-.team .col-3 .card .card-body {
+.team .card-container .card .card-img-top:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.team .card-container .card .card-body {
   text-align: center;
 }
 
@@ -401,5 +416,21 @@ footer .letter .info input, footer .letter .info .form .form__content .form-inpu
 footer .letter .info input:focus-visible, footer .letter .info .form .form__content .form-input .form-control select:focus-visible, .form .form__content .form-input .form-control footer .letter .info select:focus-visible, footer .letter .info .form .form__content .form-input .form-control textarea:focus-visible, .form .form__content .form-input .form-control footer .letter .info textarea:focus-visible {
   border: 1px solid #fff;
   outline: none;
+}
+
+footer .letter .info input::-webkit-input-placeholder, footer .letter .info .form .form__content .form-input .form-control select::-webkit-input-placeholder, .form .form__content .form-input .form-control footer .letter .info select::-webkit-input-placeholder, footer .letter .info .form .form__content .form-input .form-control textarea::-webkit-input-placeholder, .form .form__content .form-input .form-control footer .letter .info textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+footer .letter .info input:-ms-input-placeholder, footer .letter .info .form .form__content .form-input .form-control select:-ms-input-placeholder, .form .form__content .form-input .form-control footer .letter .info select:-ms-input-placeholder, footer .letter .info .form .form__content .form-input .form-control textarea:-ms-input-placeholder, .form .form__content .form-input .form-control footer .letter .info textarea:-ms-input-placeholder {
+  color: #fff;
+}
+
+footer .letter .info input::-ms-input-placeholder, footer .letter .info .form .form__content .form-input .form-control select::-ms-input-placeholder, .form .form__content .form-input .form-control footer .letter .info select::-ms-input-placeholder, footer .letter .info .form .form__content .form-input .form-control textarea::-ms-input-placeholder, .form .form__content .form-input .form-control footer .letter .info textarea::-ms-input-placeholder {
+  color: #fff;
+}
+
+footer .letter .info input::placeholder, footer .letter .info .form .form__content .form-input .form-control select::placeholder, .form .form__content .form-input .form-control footer .letter .info select::placeholder, footer .letter .info .form .form__content .form-input .form-control textarea::placeholder, .form .form__content .form-input .form-control footer .letter .info textarea::placeholder {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
