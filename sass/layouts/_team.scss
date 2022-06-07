@@ -1,6 +1,6 @@
 .team {
   background-color: #dcd1f3;
-  background-image: url(./../../images/Wave_White_bottom_right_shape_01.png);
+  background-image: url("./../../images/Wave_White_bottom_right_shape_01.png");
   @include background(bottom, contain);
   .col-3 {
     .card {

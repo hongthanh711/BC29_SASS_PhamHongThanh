@@ -206,7 +206,7 @@ header .navbar .nav-item:not(:last-child) .nav-link::after {
 }
 
 .carousel {
-  background-image: url(./../../images/Violet_top_left_wave.png), url(../../images/yellow_top_wave_01.png);
+  background-image: url("./../../images/Violet_top_left_wave.png"), url("../../images/yellow_top_wave_01.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom, top;
@@ -243,7 +243,7 @@ header .navbar .nav-item:not(:last-child) .nav-link::after {
 
 .team {
   background-color: #dcd1f3;
-  background-image: url(./../../images/Wave_White_bottom_right_shape_01.png);
+  background-image: url("./../../images/Wave_White_bottom_right_shape_01.png");
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
@@ -281,7 +281,7 @@ header .navbar .nav-item:not(:last-child) .nav-link::after {
 }
 
 .form {
-  background-image: url(./../../images/accent_bottom_wave_01.png);
+  background-image: url("./../../images/accent_bottom_wave_01.png");
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
@@ -327,7 +327,7 @@ header .navbar .nav-item:not(:last-child) .nav-link::after {
 footer {
   padding: 100px 0 200px;
   color: #fff;
-  background-image: url(./../../images/footer_background.jpg);
+  background-image: url("./../../images/footer_background.jpg");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
