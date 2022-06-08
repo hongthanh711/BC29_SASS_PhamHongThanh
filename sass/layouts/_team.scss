@@ -18,14 +18,18 @@
       .card-title {
         @include text(black, 22px, 700);
       }
-      .card-img-top {
-        transition: all 1s;
+      .card-img-container {
         overflow: hidden;
-        width: 100%;
-        &:hover {
-          transform: scale(1.2);
+        .card-img-top {
+          transition: all 1s;
+          overflow: hidden;
+          width: 100%;
+          &:hover {
+            transform: scale(1.2);
+          }
         }
       }
+
       .card-body {
         text-align: center;
       }

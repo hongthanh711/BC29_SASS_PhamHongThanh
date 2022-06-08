@@ -8,8 +8,8 @@
       padding: 10px 80px;
       margin-top: 20px;
       display: inline-block;
-      &::before {
-        content: "";
+      &:hover {
+        color: $color-primary !important;
       }
     }
     .form-input {

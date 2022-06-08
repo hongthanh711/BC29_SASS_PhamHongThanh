@@ -102,11 +102,13 @@ acronym {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   color: #fff !important;
-  text-transform: uppercase;
+  text-transform: uppercase !important;
+  text-decoration: none;
 }
 
 .btn-violet:hover {
   background-color: #fff;
+  text-decoration: none;
 }
 
 .btn-violet:hover a:hover {
@@ -279,14 +281,18 @@ header .navbar .nav-item:not(:last-child) .nav-link::after {
   font-weight: 700;
 }
 
-.team .card-container .card .card-img-top {
+.team .card-container .card .card-img-container {
+  overflow: hidden;
+}
+
+.team .card-container .card .card-img-container .card-img-top {
   -webkit-transition: all 1s;
   transition: all 1s;
   overflow: hidden;
   width: 100%;
 }
 
-.team .card-container .card .card-img-top:hover {
+.team .card-container .card .card-img-container .card-img-top:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
@@ -313,8 +319,8 @@ header .navbar .nav-item:not(:last-child) .nav-link::after {
   display: inline-block;
 }
 
-.form .form__content a.btn-violet::before {
-  content: "";
+.form .form__content a.btn-violet:hover {
+  color: #b61984 !important;
 }
 
 .form .form__content .form-input .form-control {

@@ -4,9 +4,11 @@
   border: 2px solid $color-primary;
   transition: all 0.5s;
   color: #fff !important;
-  text-transform: uppercase;
+  text-transform: uppercase !important;
+  text-decoration: none;
   &:hover {
     background-color: #fff;
+    text-decoration: none;
     a:hover {
       color: $color-primary !important;
     }
