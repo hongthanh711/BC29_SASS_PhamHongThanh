@@ -95,6 +95,11 @@ acronym {
   border: 0;
 }
 
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .btn-violet {
   background-color: #b61984;
   border-radius: 30px;
@@ -310,6 +315,8 @@ header .navbar .nav-item:not(:last-child) .nav-link::after {
 
 .form .form__content {
   background-color: #fff;
+  -webkit-box-shadow: 3px 13px 20px 0px #00000047;
+          box-shadow: 3px 13px 20px 0px #00000047;
   border-radius: 20px;
 }
 
